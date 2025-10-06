@@ -12,6 +12,11 @@ public class Cuenta {
 	}
 
 
+	public Cuenta(String string) {
+		numero = string;
+	}
+
+
 	public Double getSaldo() {
 		return saldo;
 	}
