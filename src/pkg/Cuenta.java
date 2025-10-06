@@ -42,7 +42,8 @@ public class Cuenta {
 	}
 
 	public void retirar(double i) {
-		saldo -= i;
+		if(saldo - i >= -500)
+			saldo -= i;
 		
 	}
 

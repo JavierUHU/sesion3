@@ -51,7 +51,7 @@ class testCuenta {
 	@Test
 	void test0014() {
 		c1.retirar(200);
-		c1.retirar(350);
+		c2.retirar(350);
 		c1.ingresar(100);
 		c2.retirar(200);
 		c2.retirar(150);
